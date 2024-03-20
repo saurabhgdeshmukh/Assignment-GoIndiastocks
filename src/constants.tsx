@@ -11,12 +11,16 @@ export const SIDENAV_ITEMS: SideNavItem[] = [
   {
     title: 'Market Stories',
     path: '/projects',
-    icon: <Icon icon="lucide:folder" width="24" height="24" />,
+    icon: <Icon icon="lucide:" width="24" height="24" />,
     submenu: true,
     subMenuItems: [
-      { title: 'All', path: '/projects' },
-      { title: 'Web Design', path: '/projects/web-design' },
-      { title: 'Graphic Design', path: '/projects/graphic-design' },
+      { title: 'Sentiment', path: '/' },
+      { title: 'Market', path: '/' },
+      { title: 'Sector', path: '/' },
+      { title: 'Watchlist', path: '/' },
+      { title: 'Events', path: '/' },
+      { title: 'News/interview', path: '/' },
+      
     ],
   },
   

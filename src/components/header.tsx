@@ -23,13 +23,18 @@ const Header = () => {
       )}
     >
       <div className="flex h-[47px] items-center justify-between px-4">
+        
+        
+        <div className='text-rose-800 ml-20'>DISCUSSION FOURM</div>
+        <div className='text-rose-800 ml-80'>MARKET STORIES</div>
+        
         <div className="flex items-center space-x-4">
           <Link
             href="/"
             className="flex flex-row space-x-3 items-center justify-center md:hidden"
           >
             <span className="h-7 w-7 bg-zinc-300 rounded-lg" />
-            <span className="font-bold text-xl flex ">Hello, Users</span>
+           
           </Link>
         </div>
 
