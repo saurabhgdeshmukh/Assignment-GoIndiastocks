@@ -1,6 +1,6 @@
 'use client';
 
-import React, { ReactNode, useEffect, useRef, useState } from 'react';
+import React, { MutableRefObject,ReactNode, useEffect, useRef, useState } from 'react';
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
@@ -225,7 +225,8 @@ const variants = {
   },
 };
 
-const useDimensions = (ref: any) => {
+
+const useDimensions = (ref: MutableRefObject<HTMLElement | null>) => {
   const dimensions = useRef({ width: 0, height: 0 });
 
   useEffect(() => {
@@ -233,7 +234,6 @@ const useDimensions = (ref: any) => {
       dimensions.current.width = ref.current.offsetWidth;
       dimensions.current.height = ref.current.offsetHeight;
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [ref]);
 
   return dimensions.current;
