@@ -1,7 +1,6 @@
 'use client';
 import '../styles/globals.css';
 import { useState } from 'react';
-import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import Header from '@/components/header';
 import HeaderMobile from '@/components/header-mobile';
