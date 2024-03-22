@@ -13,6 +13,7 @@ pnpm dev
 # or
 bun dev
 ```
+![image](https://github.com/saurabhgdeshmukh/Assignment-GoIndiastocks/assets/128806572/6afa60ae-7a47-4341-bfeb-8ab8440d0312)
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
